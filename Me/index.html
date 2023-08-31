@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <!-- Meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- External stylesheet -->
   <link href="styles.css" rel="stylesheet" />
 </head>
-
 <body>
-
-
   <div class="container">
+    <!-- Hamburger Menu -->
+    <div class="menu" onclick="toggleMobileMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <!-- Navigation Bar -->
     <div class="nav-bar">
       <h3>Learning</h3>
       <ul class="nav">
@@ -23,17 +28,20 @@
         <button><a href="#">Register</a></button>
       </ul>
     </div>
+    <!-- Main Content Section -->
     <div class="section-content">
+      <!-- Left Section -->
       <div class="section-left">
-        <h1>Best Learning<br/><span id="edu">Education Platform</span><span id="wor"><br/>in The World</span></h1>       
+        <h1>Best Learning<br /><span id="edu">Education Platform</span><span id="wor"><br />in The World</span></h1>
         <p id="tozih">Unlock your full learning potential with our intuitive education platform. Seamlessly blending technology and education, we provide an immersive learning environment that combines interactive lessons, virtual classrooms, and intelligent feedback.</p>
         <form>
           <input class="coursing" type="text" placeholder="What do you want to learn" />
           <button class="courbutton" type="submit">Search Course</button>
         </form>
       </div>
+      <!-- Right Section -->
       <div class="section-right">
-        <img class="img1" src="img/header-1.jpg" width="270px"/>
+        <img class="img1" src="img/header-1.jpg" width="270px" />
         <img class="img2" src="img/header-2.jpg" width="270px" />
         <ul class="Tozihat">
           <li>Get 30% off on every 1st month</li>
@@ -42,14 +50,6 @@
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
+  <script src="index.js"></script>
 </body>
-
 </html>
