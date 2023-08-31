@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+  font-family: 'Poppins';
+}
+
+.container {
+  width: 85%;
+}
+
+.nav-bar {
+  width: 100%;
+  margin-top: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  align-items: center;
+  gap: 1rem;
+}
+
+h3 {
+  color: rgb(99, 99, 230);
+  font-weight: 500;
+  font-size: 21px;
+}
+
+ul.nav {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul li {
+  font-size: 1rem;
+  list-style-type: none
+}
+
+button {
+  background-color: rgba(35, 64, 230, 0.87);
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 151);
+}
+
+button a {
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+}
+button a:hover{
+  color: white;
+}
+
+a {
+  color: black;
+  font-weight: 500;
+  transition: color 0.25s;
+}
+
+a:hover {
+  color: rgb(47, 47, 228);
+}
+
+.section-content {
+  width: 100%;
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+}
+
+.section-right {
+  margin-left: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 1.5rem;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.img1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.img2 {
+  grid-area: 1 / 2 / 2 / 3;
+  position: relative;
+  transform: translateY(-4rem);
+}
+
+ul.Tozihat {
+  transform: translate(11rem, 7.5rem);
+
+  position: absolute;
+  background: #8F41C8;
+  background: -moz-linear-gradient(-45deg, #8F41C8 0%, #FFFFFF 88%, #FFFFFF 100%);
+  background: -webkit-linear-gradient(-45deg, #8F41C8 0%, #FFFFFF 88%, #FFFFFF 100%);
+  background: linear-gradient(135deg, #8F41C8 0%, #dedbec 88%, #afe2ff 100%);
+  border-radius: 7px;
+  color: white;
+}
+
+ul.Tozihat li {
+  font-weight: 500;
+  list-style-position: inside;
+  list-style-type: disc;
+  padding: 1.5rem;
+  line-height: 0%;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.section-left {
+  width: 100%;
+}
+
+#edu {
+  color: rgb(112, 20, 216);
+  font-weight: 600;
+}
+
+#wor {
+  font-weight: bold;
+}
+
+#tozih {
+  width: 100%;
+  font-weight: 300;
+  color: #6e6e6e;
+}
+form{
+  margin-top: 2rem;
+}
+.coursing {
+  border-radius: 3px;
+  width: 60%;
+  border: none;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 3px 4px 26px 13px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 10px 13px -7px #000000, 3px 4px 26px 13px rgba(0, 0, 0, 0.26);
+}
+.courbutton{
+  color: white;
+  font-weight:600;
+  padding: 1rem;
+  background-color: rgba(82, 32, 221, 0.856);
+  margin-left: -3px;
+  border-radius: 0px;
+}
