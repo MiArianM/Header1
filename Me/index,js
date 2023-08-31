@@ -1,0 +1,11 @@
+var menu = document.querySelector(".menu");
+var container = document.querySelector(".container");
+var navbar = document.querySelector(".nav-bar");
+var title = document.querySelector("h3");
+
+function toggleMobileMenu() {
+    navbar.classList.toggle("active");
+    menu.classList.toggle("active");
+    container.classList.toggle("active");
+    title.classList.toggle("active");
+}
